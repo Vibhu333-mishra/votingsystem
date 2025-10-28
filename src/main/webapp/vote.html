@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vote Here</title>
+</head>
+<body>
+<h1>Welcome to the Online Voting System</h1>
+<h2>Select your favorite party:</h2>
+
+<!-- Form submits to VoteServlet -->
+<form action="vote" method="post">
+    <input type="radio" name="party" value="1" required> BJP <br>
+    <input type="radio" name="party" value="2"> CONG<br>
+    <input type="radio" name="party" value="3"> SMJ <br>
+    <br>
+    <input type="submit" value="Submit Vote">
+</form>
+</body>
+</html>
